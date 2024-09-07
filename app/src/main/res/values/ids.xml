@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_next_receiver" type="id">Next Receiver</item>
+    <item name="email_receiver" type="id">Receive Email</item>
+    <item name="email_sender" type="id">Send Email</item>
+    <item name="btn_next_sender" type="id">Send Next</item>
+</resources>

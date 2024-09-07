@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.content.Intent;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class ReviewInformationActivity extends AppCompatActivity {
 
     @Override
