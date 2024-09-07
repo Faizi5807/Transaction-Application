@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/formBackground">
+
+    <TextView
+        android:text="@string/receiver_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/redColor"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_bold" />
+
+    <EditText
+        android:id="@+id/email_receiver"
+        android:hint="@string/email_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+
+    <!-- Other fields (Full Name, Contact Information, etc.) similarly go here -->
+
+    <Button
+        android:id="@+id/btn_next_receiver"
+        android:text="@string/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/redColor"
+        android:textColor="@android:color/white" />
+</LinearLayout>

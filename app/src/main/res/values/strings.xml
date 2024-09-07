@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Manage Transactions</string>
+    <string name="sender_details">Sender Details</string>
+    <string name="receiver_details">Receiver Details</string>
+    <string name="next">Next</string>
+    <string name="email_hint">Email</string>
+</resources>
